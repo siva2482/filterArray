@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TwoArray.FiltetArray">
+      <class name="TwoArray.withoutString">
         <methods>
-          <include name="testing2"/>
+          <include name="brun"/>
         </methods>
-      </class> <!-- TwoArray.FiltetArray -->
+      </class> <!-- TwoArray.withoutString -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
